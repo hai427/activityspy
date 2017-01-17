@@ -1,0 +1,28 @@
+01/16 17:37:44: Launching app
+$ adb shell am start -n "edu.washington.hai427.activityspy/edu.washington.hai427.activityspy.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 3253 on device Nexus_6_API_24 [emulator-5554]
+I/art: Not late-enabling -Xcheck:jni (already on)
+W/art: Unexpected CPU variant for X86 using defaults: x86
+W/System: ClassLoader referenced unknown path: /data/app/edu.washington.hai427.activityspy-1/lib/x86
+I/art: Debugger is no longer active
+I/art: Starting a blocking GC Instrumentation
+I/InstantRun: Instant Run Runtime started. Android package is edu.washington.hai427.activityspy, real application class is null.
+W/System: ClassLoader referenced unknown path: /data/app/edu.washington.hai427.activityspy-1/lib/x86
+W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+I/mainActivity: on onCreate event fired
+I/mainActivity: on onStart event fired
+I/mainActivity: on onResume event fired
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+E/EGL_emulation: tid 3330: eglSurfaceAttrib(1146): error 0x3009 (EGL_BAD_MATCH)
+W/OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0xa687a1a0, error=EGL_BAD_MATCH
+I/mainActivity: on onPause event fired
+I/mainActivity: on onStop event fired
+I/mainActivity: on onRestart event fired
+I/mainActivity: on onStart event fired
+I/mainActivity: on onResume event fired
+E/EGL_emulation: tid 3330: eglSurfaceAttrib(1146): error 0x3009 (EGL_BAD_MATCH)
+W/OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0xa687a1a0, error=EGL_BAD_MATCH
+I/mainActivity: on onPause event fired
+I/mainActivity: on onStop event fired
+E/mainActivity: We’re going down, Captain!
